@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+p {
+  line-height: 30px;
+}
+.header {
+  background-image: url("./images/bg-header-desktop.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  margin-bottom: 150px;
+}
+.header .logo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.head2 {
+  text-align: center;
+  margin: 120px 0;
+  margin-top: 150px;
+}
+h1,
+h2,
+h3 {
+  color: #333333;
+}
+.head2 .clip h1 {
+  font-size: 35px;
+}
+.head2 .clip h1,
+.head2 .clip p {
+  margin-bottom: 20px;
+}
+.head2 .clip p {
+  color: grey;
+}
+
+button {
+  border: none;
+  border-radius: 99px;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+.download-ios {
+  margin-right: 30px;
+  background: seagreen;
+  color: white;
+}
+.download-mac {
+  background: slateblue;
+  color: white;
+}
+
+.head3 .head3_intro {
+  text-align: center;
+}
+.head3 .head3_intro h2 {
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.head3 .head3_intro p {
+  color: grey;
+  margin-bottom: 15px;
+}
+.head3_body {
+  margin-top: 80px;
+}
+.head3_body .tracks {
+  margin-top: 30px;
+}
+.head3 .head3_body {
+  display: flex;
+}
+.head3 .head3_body .tracks {
+  margin-left: 70px;
+  margin-bottom: 45px;
+}
+.head3 .head3_body .tracks p {
+  margin-top: 15px;
+  color: grey;
+}
+.head3 .head3_body .tracks h3 {
+  margin-top: 20px;
+  color: #333333;
+}
+.head4 {
+  margin-top: 150px;
+}
+.head4 .access {
+  text-align: center;
+  margin-top: 60px;
+}
+.head .access p {
+  margin-top: 20px;
+  margin-bottom: 27px;
+}
+.head4 .access h2 {
+  margin-bottom: 30px;
+}
+.head4 .access p {
+  margin-bottom: 18px;
+  color: grey;
+}
+.head5 {
+  text-align: center;
+  margin-top: 150px;
+}
+.head5 .super h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.head5 .super p {
+  color: grey;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 45px;
+  padding: 50px 50px;
+}
+.logos h3 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.logos p {
+  color: grey;
+}
+.logoss {
+  margin-top: 150px;
+}
+.logoss .log1-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aftlogs .is {
+  text-align: center;
+  margin-top: 30px;
+}
+.aftlogs {
+  margin-top: 200px;
+}
+.aftlogs h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.aftlogs p {
+  margin-top: 18px;
+  margin-bottom: 45px;
+  color: grey;
+}
+
+.footer .final {
+  background-color: lavender;
+  padding: 50px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+  text-align: left;
+}
+.footer .final p {
+  color: grey;
+}
+.footer .final .im img {
+  width: 50px;
+}
+
+/* Media querries */
+@media only screen and (max-width: 812px) {
+  body {
+    width: 100%;
+  }
+  .header {
+    background-image: url("./images/bg-header-mobile.png");
+    margin-bottom: 0;
+  }
+  .head2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .download-ios {
+    margin-right: 0;
+    background: seagreen;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .head3 {
+    margin-block: 100px;
+    padding: 0 20px;
+   /*  width: 100%; */
+  }
+  .head3 .head3_intro p {
+    color: grey;
+    margin-bottom: 15px;
+    /* padding-inline: 20px; */
+  }
+  .head3 .head3_body {
+    display: block;
+    text-align: center;
+  }
+  .head3 .head3_body img {
+    width: 80%;
+  }
+  .head3 .head3_body .tracks {
+    margin-left: 0;
+    margin-bottom: 45px;
+  }
+  .head4 .access {
+    text-align: center;
+    margin-top: 60px;
+  }
+  .head4 .access img {
+    width: 80%;
+  }
+  .logos {
+    display: block;
+  }
+  .logoss {
+    margin-top: 0;
+    margin-bottom: -50px;
+    text-align: center;
+  }
+  .logoss .log1-5 {
+    display: block;
+  }
+  .logoss .log1-5 img {
+    margin-bottom: 40px;
+  }
+  .afterlogs .is {
+    padding: 0 40px;
+  }
+  .footer .final {
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+  }
+  .im, .fp p, .pi p, .cp p {
+    margin-bottom: 20px;
+  }
+  .ims img {
+    margin-inline: 20px;
+  }
+}
